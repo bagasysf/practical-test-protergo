@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Sandal",
+    "description": "This sandal is made by the best fiber optic in the world. Shatter Guarantee",
+    "quantity": 10
+  },
+  {
+    "name": "Shoes",
+    "description": "This shoes is made by the best iron in the world. Heat Guarantee",
+    "quantity": 10
+  },
+  {
+    "name": "Sock",
+    "description": "This sock is made by the best wire in the world. Crease Guarantee",
+    "quantity": 10
+  }
+]
