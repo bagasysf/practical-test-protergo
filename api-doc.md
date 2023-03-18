@@ -2,9 +2,9 @@
 
 ### Deployed server
 
-- null
+- Server: https://practical.test-protergo.tech
 
-Silahkan lakukan login dengan akun dibawah ini :
+You can continue with account below this :
 
 _Role Admin_
 
