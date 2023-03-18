@@ -2,7 +2,7 @@
 
 ## Preview MP4
 
-![Preview](https://drive.google.com/file/d/18i2Oe2hlDA9lO1VlqIBqmwMJ5YKjU3fL/view?usp=sharing)
+Google Drice : https://drive.google.com/file/d/18i2Oe2hlDA9lO1VlqIBqmwMJ5YKjU3fL/view?usp=sharing
 
 ## Link App
 
