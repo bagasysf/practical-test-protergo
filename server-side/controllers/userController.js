@@ -3,6 +3,17 @@ const { sign } = require('../helpers/jwt');
 const { User } = require('../models/index');
 
 class userController {
+  static async fetchUser(req, res, next) {
+    try {
+      const users = await User.findAll();
+      res.status(200).json({
+        users,
+      });
+    } catch (error) {
+      console.log(error.message);
+    }
+  }
+
   static async login(req, res, next) {
     try {
       const { email, password } = req.body;
@@ -39,6 +50,7 @@ class userController {
       });
       res.status(200).json({
         access_token: token,
+        role: user.role,
       });
     } catch (error) {
       console.log(error.message);
@@ -48,11 +60,11 @@ class userController {
 
   static async register(req, res, next) {
     try {
-      const { email, password } = req.body;
+      const { email, password, role } = req.body;
       const register = await User.create({
         email,
         password,
-        role: 'user',
+        role,
       });
       res.status(200).json({
         message: `Success create User with id ${register.id}`,

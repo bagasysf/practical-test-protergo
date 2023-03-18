@@ -17,6 +17,11 @@ class itemController {
     try {
       const { id } = req.params;
       const item = await Item.findByPk(id);
+      if (!item) {
+        throw {
+          name: 'ItemNotFound',
+        };
+      }
       res.status(200).json({
         item,
       });
