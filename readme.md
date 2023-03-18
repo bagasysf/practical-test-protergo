@@ -6,7 +6,7 @@ Google Drive : https://drive.google.com/file/d/18i2Oe2hlDA9lO1VlqIBqmwMJ5YKjU3fL
 
 ## Deploy Client
 
-- Client : https://practical-test-protergo.web.app/login
+- Client : https://practical-test-protergo.web.app
 
 You can continue with account below this :
 
